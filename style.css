@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+   
+    background-image: linear-gradient(to right, #ffff, rgb(5, 121, 24));
+    font-family: 'Poppins', sans-serif;
+}
+.main-heading{
+    text-align: center;
+    margin-top: 3%;
+    font-size: 4rem;
+    font-weight: bold;
+}
+.container{
+   background-color: #1C7947;
+   width: auto;
+    border-radius: 70%;
+   margin-top: 6%;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 4%;
+}
+.user-score, .total-score{
+    color: antiquewhite;
+    font-size: 1.3rem;
+}
+.ques{
+   padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 3rem;
+    color: antiquewhite;
+}
+.btn-choiceT, .btn-choiceF{
+   font-size: 1.8rem;
+   margin-right: 2%;
+   background-color: lightgreen;
+}
+.btn-res, .btn-prev, .btn-nex, .btn-sub{
+    font-size: 1.8rem;
+    margin-top: 3%;
+   margin-right: 2%;
+   background-color: darkgreen;
+   color: antiquewhite;
+}
+.btn-choiceT:hover, .btn-choiceF:hover{
+    background-color: darkgreen;
+    color: antiquewhite;
+}
+.btn-res:hover, .btn-prev:hover, .btn-nex:hover, .btn-sub:hover{
+    background-color: lightgreen;
+    color: black;
+}
+.hide{
+    display: none;
+}
+
